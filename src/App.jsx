@@ -3,12 +3,15 @@ import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import AddHotel from './Components/AddHotel/AddHotel';
 import Layout from './Components/AdminLayout/Layout';
+import Reigster from './Components/Reigster/Reigster';
 
 function App() {
   let routers = createBrowserRouter([
-    { path: '/addhotel', element: <Layout /> }
+    { path: '/addhotel', element: <Layout /> },
+    { path: '/register', element: <Reigster /> },
+
   ]);
-  return <RouterProvider router={routers}/>
+  return <RouterProvider router={routers} />
 }
 
 export default App;
