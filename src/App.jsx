@@ -6,7 +6,10 @@ import Layout from './Components/AdminLayout/Layout';
 
 function App() {
   let routers = createBrowserRouter([
-    { path: '/addhotel', element: <Layout /> }
+    {
+      path: '/', element: <Layout />, children: [
+        { path: '/addhotel', element: <AddHotel /> }
+    ] }
   ]);
   return <RouterProvider router={routers}/>
 }

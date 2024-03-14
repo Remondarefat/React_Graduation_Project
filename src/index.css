@@ -1,3 +1,9 @@
+:root {
+  --link-color:#C2C2C2;
+  --link-background: #000C00;
+  --nav-background:  #F4F6FF;
+  --logo-background:  #47BCC2;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,17 +17,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.bg-adminav{
+.nav-background{
   
-  background-color: #F4F6FF;
+  background-color:var(--nav-background);
 }
 .admin-side{
   width: 80px;
   height: 40px;
 }
+.side-nav{
+  height: 75vh;
+}
 .tab-color{
-  background-color: #000C00;
+  background-color: var(--link-background)
 }
 .logo-width{
   width: 150px;
+}
+.img-slid{
+  height: 100px;
+}
+.images-dev{
+  height: 130px;
+}
+.link-color{
+  color: var(--link-color);
+}
+.btn-upload{
+  background-color: var(--logo-background);
 }
