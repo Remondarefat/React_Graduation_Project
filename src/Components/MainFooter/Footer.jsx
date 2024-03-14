@@ -10,7 +10,13 @@ export default function Footer() {
           
               <div className="footer-item">
                 <img src={logo} alt='nyla logo' className="footer-logo"/>
-                <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>The Egyptian accommodation booking system simplifies the process of reserving hotels and resorts, ensuring travelers find suitable options for their stay while exploring Egypt's attractions.
+
+
+
+
+
+</p>
               </div>
               <div className="footer-item">
                 <h5>North Coast</h5>
@@ -48,7 +54,7 @@ export default function Footer() {
         <button className='button-style' >Contact Us</button>
         </div>
         <div className="footer-copyright">
-          <p>&copy;2024 thecreation.design | All rights reserved</p>
+          <p>&copy;2024 nyla | All rights reserved</p>
         </div>
       </div>
     </footer>

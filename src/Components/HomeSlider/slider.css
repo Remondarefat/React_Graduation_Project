@@ -1,0 +1,7 @@
+.slider{
+    height: 90vh;
+}
+.slider-container > img {
+    height: 100%;
+    object-fit: cover; /* Adjust according to your needs */
+  }
