@@ -3,6 +3,7 @@
   --link-background: #000C00;
   --nav-background:  #F4F6FF;
   --logo-background:  #47BCC2;
+
 }
 body {
   margin: 0;
@@ -45,4 +46,17 @@ code {
 }
 .btn-upload{
   background-color: var(--logo-background);
+}
+
+.available-title{
+  color: #a19e9e;
+}
+.btn-addroom{
+  bottom: 10px;
+  right: 10px;
+}
+.room-icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
