@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AdminNavbar() {
+  
   return (
     <>
       <div className=" bg-adminav">
@@ -15,11 +17,11 @@ export default function AdminNavbar() {
         </div>
           </div>
           <div className="w-100 ">
-              <div className="d-flex w-50 mx-auto bg-black justify-content-center tab-color text-white">
-                  <h1 className="me-5">asd</h1>
-                  <h1 className="me-5">asd</h1>
-                  <h1 className="me-5">asdas</h1>
-                  <h1 className="me-5">asdas</h1>
+              <div className="d-flex w-50 mx-auto pt-3 pb-3 justify-content-center tab-color text-white rounded-2">
+                  <Link className="me-5 text-white text-decoration-none">Request</Link>
+                  <Link className="me-5 text-white text-decoration-none">.All Hotels</Link>
+                  <Link className="me-5 text-white text-decoration-none" to={"/addhotel"}>.Add Hotel</Link>
+                  <Link className="me-5 text-white text-decoration-none" to={"/addroom"}>.Add Room</Link>
              </div>
           </div>
     </>
